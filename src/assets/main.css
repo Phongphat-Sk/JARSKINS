@@ -148,6 +148,7 @@ button:hover{
   display: flex;
   justify-content: left;
   align-items: center;
+  
 }
 .contai1 p{
   color: #fff;
@@ -214,7 +215,7 @@ button:hover{
 }
 .mtex{
   width: 230px;
-  color: #333;
+  color: #ffffff;
 }
 .mtex h3{
   font-size: 25px;

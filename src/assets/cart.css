@@ -1,0 +1,76 @@
+/* Import font from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai:wght@300&display=swap');
+
+/* Reset default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'IBM Plex Sans Thai', sans-serif;
+}
+
+/* Set the background color for the whole page */
+body {
+  background-color: #333;
+}
+
+/* Apply pointer cursor to buttons on hover */
+button:hover {
+  cursor: pointer;
+}
+
+/* Style the navigation bar */
+.nav {
+  background-color: lightgray;
+  margin-right: 2rem;
+  height: 130px;
+  width: 40px;
+  border-radius: 40px;
+  position: fixed;
+  bottom: 20px;
+  right: 0;
+}
+
+/* Style the navigation icons */
+.nav figure {
+  margin-top: 15px;
+  margin-left: 7px;
+}
+.nav img:hover {
+  cursor: pointer;
+}
+
+/* Custom header style */
+.custom-header {
+  width: 100%;
+  height: 60px;
+  background: #fff;
+  box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.25);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 40px;
+  box-sizing: border-box;
+}
+
+/* Style for the header content */
+.header-content {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Style for the logo */
+.logo {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* Style for the product icon */
+.product-icon img {
+  width: 130px;
+  height: 100px;
+}
+
+/* เอาเหมือนกันลบให้เหลือ header */

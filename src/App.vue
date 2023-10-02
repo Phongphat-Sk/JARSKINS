@@ -9,7 +9,7 @@
         
         <!-- ทางขวาของช่องสีขาวมีลิงค์ตระกล้าสินค้า -->
         <div class="product-icon">
-          <a href="/">
+          <a href="/src/stores/cart.html">
             <img src="/src/assets/pic/product-icon.png" alt="ตระกล้าสินค้า"/>
           </a>
         </div>
@@ -19,12 +19,7 @@
 
     <div class="subhead">
       <div class="alltag">
-        <div class="tags">
-          <button><a>Lucky Card</a></button>
-        </div>
-        <div class="tags">
-        <button><a>Lucky CardPlus</a></button>
-      </div>
+        
       <div class="tags">
         <button><a>Give away</a></button>
       </div>
