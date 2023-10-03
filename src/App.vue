@@ -8,9 +8,9 @@
         <div class="logo">JARJOSUDLOR</div>
         
         <!-- ทางขวาของช่องสีขาวมีลิงค์ตระกล้าสินค้า -->
-        <div class="product-icon">
-          <a href="#">
-            <img src="/src/assets/pic/product-icon.png" >
+        <div class="product-icon1">
+          <a href="/src/sell_order.html">
+            <img src="/src/assets/pic/icon product.png" >
           </a>
         </div>
         

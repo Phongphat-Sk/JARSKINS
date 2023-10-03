@@ -61,11 +61,7 @@ button:hover{
   font-size: 20px;
   font-weight: bold;
 }
-.product-icon img {
-  margin-top: 5px;
-  width: 110px; /* ปรับขนาดความกว้างของรูปตระกล้า */
-  height: 80px; /* ปรับขนาดความสูงของรูปตระกล้า */
-}
+
 
 /* แถบค้นหา & tags */
 .subhead{
@@ -267,3 +263,28 @@ button:hover{
   transform: translateY(60px); /* ปรับตามความต้องการ */
 }
 
+/* ขนาดของรูปภาพสำหรับ icon1 */
+.product-icon1 img {
+  width: 45px;
+  height: 45px;
+}
+
+/* รูปแบบสำหรับ icon2 และ icon3 */
+.product-icon2,
+.product-icon3 {
+  display: flex;
+  align-items: center;
+}
+
+/* ขนาดของรูปภาพสำหรับ icon2 และ icon3 */
+.product-icon2 img,
+.product-icon3 img {
+  width: 40px;
+  height: 35px;
+}
+
+/* การจัดตำแหน่งของ icon3 เพื่อให้อยู่ทางขวา */
+.product-icon3 {
+  margin-left: auto; /* เลื่อนไปทางขวา */
+  margin-right: 10px; /* เลื่อนไปอีกทางขวา (ปรับตามต้องการ) */
+}

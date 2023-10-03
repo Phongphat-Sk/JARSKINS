@@ -11,7 +11,7 @@
 
 /* Set the background color for the whole page */
 body {
-  background-color: #333;
+  background-color: #ffffff;
 }
 
 /* Apply pointer cursor to buttons on hover */
@@ -19,26 +19,7 @@ button:hover {
   cursor: pointer;
 }
 
-/* Style the navigation bar */
-.nav {
-  background-color: lightgray;
-  margin-right: 2rem;
-  height: 130px;
-  width: 40px;
-  border-radius: 40px;
-  position: fixed;
-  bottom: 20px;
-  right: 0;
-}
 
-/* Style the navigation icons */
-.nav figure {
-  margin-top: 15px;
-  margin-left: 7px;
-}
-.nav img:hover {
-  cursor: pointer;
-}
 
 /* Custom header style */
 .custom-header {
@@ -53,13 +34,7 @@ button:hover {
   box-sizing: border-box;
 }
 
-/* Style for the header content */
-.header-content {
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
+
 
 /* Style for the logo */
 .logo {
@@ -67,10 +42,118 @@ button:hover {
   font-weight: bold;
 }
 
-/* Style for the product icon */
-.product-icon img {
-  width: 130px;
-  height: 100px;
-}
+
 
 /* เอาเหมือนกันลบให้เหลือ header */
+
+.search-box {
+  display: flex;
+  align-items: center;
+  border-radius: 50px;
+  padding: 5px;
+}
+
+.search-input {
+  margin-left: 3rem;
+  padding: 5px 19px;
+  border: none;
+  border-radius: 50px;
+  width: 490px;
+  box-sizing: border-box;
+  border: #333 2px solid;
+}
+
+/* สไตล์สำหรับไอคอนรูปตระกูลสินค้า */
+.serch-button{
+  margin-left: -4.9rem;
+  margin-bottom: 2px;
+  margin-top: 1px;
+  width: 75px;
+  height: 27px;
+  border-radius: 20px;
+  font-size: 14px;
+  background-color: rgb(250, 81, 51);
+  color: #fff;
+}
+.serch-button:hover{
+  background-color: rgb(179, 5, 5);
+  color: #fff;
+}
+
+.header-content {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+/* ขนาดของรูปภาพสำหรับ icon1 */
+.product-icon1 img {
+  width: 45px;
+  height: 45px;
+}
+
+/* รูปแบบสำหรับ icon2 และ icon3 */
+.product-icon2,
+.product-icon3 {
+  display: flex;
+  align-items: center;
+}
+
+/* ขนาดของรูปภาพสำหรับ icon2 และ icon3 */
+.product-icon2 img,
+.product-icon3 img {
+  width: 40px;
+  height: 35px;
+}
+
+/* การจัดตำแหน่งของ icon3 เพื่อให้อยู่ทางขวา */
+.product-icon3 {
+  margin-left: auto; /* เลื่อนไปทางขวา */
+  margin-right: 10px; /* เลื่อนไปอีกทางขวา (ปรับตามต้องการ) */
+}
+
+/* รวมรวมไอคอนทั้ง 3 ในแถวเดียว */
+.header-content {
+  display: flex;
+  align-items: center;
+}
+
+
+/* เพิ่ม class ใหม่สำหรับกล่อง wallet */
+.wallet-container {
+  display: flex;
+  align-items: center;
+  margin-left: auto; /* เลื่อน wallet ไปทางขวา */
+  margin-right: 20px; /* ระยะห่างจากขอบขวาของ header */
+}
+
+/* รูปแบบสำหรับแท็กหลักที่ครอบคลุมกล่อง input */
+.input-container {
+  display: flex;
+  align-items: center;
+  border: 1px solid #333; /* กรอบล้อมกล่อง input */
+  border-radius: 5px; /* ปรับรูปร่างกรอบ */
+  padding: 3px; /* ระยะห่างของข้อมูลภายในกรอบ */
+  width: fit-content; /* ปรับขนาดกล่องให้พอดีกับเนื้อหา */
+}
+
+
+
+/* รูปแบบสำหรับช่องรับจำนวนเงิน */
+.wallet-input {
+  font-size: 14px; /* ปรับขนาดตามความต้องการ */
+  border: none;
+  padding: 0;
+  width: 100%;
+  background-color: transparent; /* ลบพื้นหลัง */
+}
+
+/* รูปแบบสำหรับปุ่มเพิ่มเงิน */
+.add-money-button {
+  width: 35px;
+  height: 35px;
+  flex-shrink: 0;
+  border-radius: 5px;
+  background: linear-gradient(179deg, #F00 -27.35%, rgba(196, 196, 196, 0.00) 147.03%);
+  cursor: pointer; /* เปลี่ยนรูปลูกศรเมื่อวางและคลิกที่ปุ่ม */
+}

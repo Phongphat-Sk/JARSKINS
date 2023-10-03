@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/src/assets/cart.css"> 
+    <title>sell_order</title>
+</head>
+<body>
+    <div id="app">
+        <!-- เฮดเดอร์ที่กำหนดเอง -->
+        <header class="custom-header">
+            <!-- ส่วนเพิ่มเติมเพื่อจัดให้ช่องค้นหาแบบวงลีอยู่กึ่งกลาง -->
+            <div class="header-content">
+                <!-- ด้านซ้ายมีข้อความว่า JARJOSUDLOR เป็น logo -->
+                <div class="logo">JARJOSUDLOR</div>
+            
+                <div class="search-box">
+                    <input class="search-input" type="text" placeholder="คุณกำลังมองหาอะไรอยู่"/>
+                    <button class="serch-button" >ค้นหา</button>
+                  </div>
+
+                  <div class="wallet">
+                    <div class="input-container">
+                      <input class="wallet-input" type="text" value="100.00" readonly/>
+                      <button class="add-money-button"><img src="/your-icon.png" alt="Add Money"></button>
+                    </div>
+                  </div>
+                  
+                  
+                  
+                  
+                  
+                  
+
+                <!-- ทางขวาของช่องสีขาวมีลิงค์ตระกล้าสินค้า -->
+                <div class="product-icon3">
+                    <a href="/src/stores/cart.html">
+                        <img src="/src/assets/pic/icon product3.png" alt="ตระกล้าสินค้า" />
+                    </a>
+                </div>
+                <div class="product-icon2">
+                    <a href="/src/stores/cart.html">
+                        <img src="/src/assets/pic/icon product2.png" alt="ตระกล้าสินค้า" />
+                    </a>
+                </div>
+                <div class="product-icon1">
+                    <a href="/src/stores/cart.html">
+                        <img src="/src/assets/pic/icon product.png" alt="ตระกล้าสินค้า" />
+                    </a>
+                </div>
+               
+            </div>
+        </header>
+        <!-- เนื้อหาหน้าแอปของคุณ -->
+        <!-- ส่วนของเมนูหลัก แท็ก <RouterView /> จะแสดงหน้าเว็บแต่ละหน้าที่ถูกโหลดโดย Vue Router -->
+        <RouterView />
+    </div>
+</body>
+</html>
