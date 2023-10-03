@@ -7,7 +7,7 @@
 }
 
 body{
-  background-color: #333;
+  background-color: #fff;
 }
 
 button:hover{
@@ -30,19 +30,17 @@ button:hover{
   margin-top: 15px;
   margin-left: 7px;
 }
-.nav img{
-  
-}
 .nav img:hover{
   cursor: pointer;
 }
 /* สไตล์สำหรับเฮดเดอร์ที่กำหนดเอง */
 .custom-header {
   width: 100%;
-  height: 60px;
+  height: 50px;
   flex-shrink: 0;
-  background: #fff;
-  box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.25);
+  background: #f5f5f5;
+  border-bottom: #333 1px solid;
+  /* box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.25); */
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -64,8 +62,9 @@ button:hover{
   font-weight: bold;
 }
 .product-icon img {
-  width: 130px; /* ปรับขนาดความกว้างของรูปตระกล้า */
-  height: 100px; /* ปรับขนาดความสูงของรูปตระกล้า */
+  margin-top: 5px;
+  width: 110px; /* ปรับขนาดความกว้างของรูปตระกล้า */
+  height: 80px; /* ปรับขนาดความสูงของรูปตระกล้า */
 }
 
 /* แถบค้นหา & tags */
@@ -89,6 +88,7 @@ button:hover{
   border-radius: 50px;
   width: 490px;
   box-sizing: border-box;
+  border: #333 2px solid;
 }
 
 /* สไตล์สำหรับไอคอนรูปตระกูลสินค้า */
@@ -107,6 +107,13 @@ button:hover{
   background-color: rgb(179, 5, 5);
   color: #fff;
 }
+.contai1 .tags button{
+  color: black;
+  background: #f5f5f5;
+}
+.contai1 .tags button:hover{
+  background-color: silver;
+}
 .tags {
   float: left;
   display: block;
@@ -114,12 +121,12 @@ button:hover{
   padding: 14px 10px;
 }
 .tags button{
-  color: #fff;
-  background-color: #666;
+  color: black;
+  background: silver;
+  font-weight: bold;
   padding: 3px 25px;
   border-radius: 90px;
-  border: white;
-  border: 1px #fff solid;
+  border: #333 1px solid;
 }
 .tags button:hover{
   color: #333;
@@ -127,18 +134,20 @@ button:hover{
 }
 
 .login{
-  color: #fff;
-  background-color: #666;
+  color: #333;
+  background-color: #f5f5f5;
   padding: 0 25px;
   height: 40px;
   width: 120px;
   border-radius: 20px;
-  border: 1px #fff solid;
+  border: 1px #333 solid;
   margin-left: 2rem;
+  font-weight: bold;
+
 }
 .login:hover{
   color: #333;
-  background-color: #fff;
+  background-color: silver;
   border: 1px black solid;
 }
 
@@ -151,7 +160,6 @@ button:hover{
   
 }
 .contai1 p{
-  color: #fff;
   margin-top: 3px;
 }
 
@@ -173,7 +181,6 @@ button:hover{
   margin-top: 90px;
   height: 400px;
   text-align: center;
-  color: #fff;
 }
 .bigfig{
   margin-top: 40px;
@@ -196,7 +203,6 @@ button:hover{
 .contai4{
   height: 400px;
   text-align: center;
-  color: #fff;
 }
 .bigmarket{
   margin-top: 40px;
@@ -215,10 +221,11 @@ button:hover{
 }
 .mtex{
   width: 230px;
-  color: #ffffff;
+  color: black;
 }
 .mtex h3{
   font-size: 25px;
+  font-weight: bold;
 }
 .marketflex{
   display: flex;
@@ -231,10 +238,10 @@ button:hover{
   border: none;
   background-color: lightcoral;
   font-weight: bold;
-  color: #fff;
+  color: black;
 }
 .market button:hover{
-  background-color: lightsalmon;
+  background-color: brown;
   color: #fff;
 }
 .market img{

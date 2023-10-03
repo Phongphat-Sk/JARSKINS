@@ -9,8 +9,8 @@
         
         <!-- ทางขวาของช่องสีขาวมีลิงค์ตระกล้าสินค้า -->
         <div class="product-icon">
-          <a href="/src/stores/cart.html">
-            <img src="/src/assets/pic/product-icon.png" alt="ตระกล้าสินค้า"/>
+          <a href="#">
+            <img src="/src/assets/pic/product-icon.png" >
           </a>
         </div>
         
@@ -19,7 +19,12 @@
 
     <div class="subhead">
       <div class="alltag">
-        
+      <div class="tags">
+        <button><a>Lucky Card</a></button>
+      </div>
+      <div class="tags">
+        <button><a>Lucky Card Plus</a></button>
+      </div>
       <div class="tags">
         <button><a>Give away</a></button>
       </div>
@@ -32,12 +37,16 @@
         <input class="search-input" type="text" placeholder="คุณกำลังมองหาอะไรอยู่"/>
         <button class="serch-button" >ค้นหา</button>
       </div>
-      <button class="login">เข้าสู่ระบบ</button>
+      <a href="src\login.vue">
+        <button class="login">เข้าสู่ระบบ</button>
+      </a>
   </div>
   
   <div class="nav">
-    <figure>  
-      <img src="src\assets\pic\chevron-arrow-up.png" alt="" width="25px" height="25px">
+    <figure> 
+      <a href="#">
+        <img src="src\assets\pic\chevron-arrow-up.png" alt="" width="25px" height="25px">
+      </a>
       <img src="src\assets\pic\clipart1589423.png" alt="" width="25px" height="25px">
       <img src="src\assets\pic\playerLeft.png" alt="" width="25px" height="25px">
     </figure>
@@ -107,7 +116,9 @@
         </div>
         <img src="src\assets\pic\trolley-cart.png" alt="">
       </div>
-        <button>ไปตลาด</button>
+      <a href="https://pencil05.github.io/market/">
+          <button>ไปตลาด</button>
+        </a>
       </div>
       <div class="market">
         <div class="marketflex">
@@ -118,17 +129,18 @@
           </div>
           <img src="src\assets\pic\shop.png" alt="">
         </div>
+        <a href="https://pencil05.github.io/market/">
           <button>รายการ</button>
+        </a>
       </div>
     </div>
+
+
   </div>
 
 
 
-
-
-
-    <!-- เนื้อหาแอปของคุณ -->
+  
     <RouterView />
   </div>
 </template>
