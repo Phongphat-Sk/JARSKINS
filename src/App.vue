@@ -20,12 +20,6 @@
     <div class="subhead">
       <div class="alltag">
       <div class="tags">
-        <button><a>Lucky Card</a></button>
-      </div>
-      <div class="tags">
-        <button><a>Lucky Card Plus</a></button>
-      </div>
-      <div class="tags">
         <button><a>Give away</a></button>
       </div>
       <div class="tags">
@@ -71,16 +65,16 @@
 
   <div class="contai2">
     <figure>
-      <img src="" alt="">
-      <img src="" alt="">
-      <img src="" alt="">
-      <img src="" alt="">
+      <img src="/src/assets/pic/Rectangle 11.png" alt="">
+      <img src="/src/assets/pic/Rectangle 12.png" alt="">
+      <img src="/src/assets/pic/Rectangle 13.png" alt="">
+      <img src="/src/assets/pic/Rectangle 14.png" alt="">
     </figure>
     <figure>
-      <img src="" alt="">
-      <img src="" alt="">
-      <img src="" alt="">
-      <img src="" alt="">
+      <img src="/src/assets/pic/Rectangle 15.png" alt="">
+      <img src="/src/assets/pic/Rectangle 16.png" alt="">
+      <img src="/src/assets/pic/Rectangle 17.png" alt="">
+      <img src="/src/assets/pic/Rectangle 18.png" alt="">
     </figure>
   </div>
 
@@ -88,19 +82,24 @@
     <h2>Explore millions of offerings tailored to your business needs</h2>
     <div class="bigfig">
       <figure>
-        <div class="ball"></div>
-      <div class="ball"></div>
-      <div class="ball"></div>
-      <div class="ball"></div>
-      <div class="ball"></div>
+        <div class="ball">
+           <img src="/src/assets/pic/Rectangle 19.png">
+        </div>
+        <div class="ball">
+           <img src="/src/assets/pic/Rectangle 20.png">
+        </div>
+        <div class="ball">
+           <img src="/src/assets/pic/Rectangle 21.png">
+        </div>
+        <div class="ball">
+           <img src="/src/assets/pic/Rectangle 22.png">
+        </div>
+        <div class="ball">
+           <img src="/src/assets/pic/Rectangle 23.png">
+        </div>
+      
     </figure>
-    <figure>
-      <div class="ball"></div>
-      <div class="ball"></div>
-      <div class="ball"></div>
-      <div class="ball"></div>
-      <div class="ball"></div>
-    </figure>
+  
     </div>
   </div>
 

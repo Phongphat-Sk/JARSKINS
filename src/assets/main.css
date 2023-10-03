@@ -189,13 +189,23 @@ button:hover{
   display: flex;
   justify-content: center; /* จัดให้รูปภาพอยู่กึ่งกลางแนวนอน */
 }
-.ball{
+.ball {
   width: 90px;
   height: 90px;
   background-color: lightgray;
   margin: .5rem;
   border-radius: 190px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+
+.ball img {
+  width: 100%; /* ปรับขนาดความกว้างของรูปให้เท่ากับ .ball */
+  height: 100%; /* ปรับขนาดความสูงของรูปให้เท่ากับ .ball */
+}
+
+
 .ball:hover{
   cursor: pointer;
 }
