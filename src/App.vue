@@ -35,7 +35,25 @@
         <button class="login">เข้าสู่ระบบ</button>
       </a>
   </div>
+
+  <div class="carousel" data-flickity='{ "wrapAround": true, "autoPlay": true, "imagesLoaded": true }'>
+  <div class="carousel-cell">
+    <img class="w3-image carousel-img" src="/src/assets/pic/carousel1.webp">
+  </div>
+  <div class="carousel-cell">
+    <img class="w3-image carousel-img" src="/src/assets/pic/carousel2.webp">
+  </div>
+  <div class="carousel-cell">
+    <img class="w3-image carousel-img" src="/src/assets/pic/carousel3.webp">
+  </div>
+</div>
+
+
   
+
+
+
+
   <div class="nav">
     <figure> 
       <a href="#">
@@ -45,6 +63,9 @@
       <img src="src\assets\pic\playerLeft.png" alt="" width="25px" height="25px">
     </figure>
   </div>
+
+
+  
   <div class="contai1">
     <p>ค้นหาบ่อย : </p>
     <div class="alltag">
@@ -162,4 +183,25 @@
 
 <script setup>
 import { RouterView } from 'vue-router'
+import { onMounted } from 'vue'
+import Flickity from 'flickity'
+
+const flickity = new Flickity('.carousel', {
+  wrapAround: true,
+  autoPlay: true,
+  imagesLoaded: true
+});
+
+flickity.on('change', function(index) {
+  // ซ่อนรูปภาพทั้งหมด
+  const images = document.querySelectorAll('.carousel-img');
+  images.forEach(image => {
+    image.style.display = 'none';
+  });
+
+  // แสดงรูปภาพที่เกี่ยวข้องกับหน้าลูกศรปัจจุบัน
+  images[index].style.display = 'block';
+});
+
+
 </script>
