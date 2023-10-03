@@ -65,16 +65,32 @@
 
   <div class="contai2">
     <figure>
-      <img src="/src/assets/pic/Rectangle 11.png" alt="">
-      <img src="/src/assets/pic/Rectangle 12.png" alt="">
-      <img src="/src/assets/pic/Rectangle 13.png" alt="">
-      <img src="/src/assets/pic/Rectangle 14.png" alt="">
+      <a href="#">
+         <img src="/src/assets/pic/Rectangle 11.png" alt="">
+      </a>
+      <a href="#">
+        <img src="/src/assets/pic/Rectangle 12.png" alt="">
+      </a>
+      <a href="#">
+        <img src="/src/assets/pic/Rectangle 13.png" alt="">
+      </a>
+      <a href="#">
+        <img src="/src/assets/pic/Rectangle 14.png" alt="">
+      </a>
     </figure>
     <figure>
-      <img src="/src/assets/pic/Rectangle 15.png" alt="">
-      <img src="/src/assets/pic/Rectangle 16.png" alt="">
-      <img src="/src/assets/pic/Rectangle 17.png" alt="">
-      <img src="/src/assets/pic/Rectangle 18.png" alt="">
+      <a href="#">
+        <img src="/src/assets/pic/Rectangle 15.png" alt="">
+      </a>
+      <a href="#">
+        <img src="/src/assets/pic/Rectangle 16.png" alt="">
+      </a>
+      <a href="#">
+        <img src="/src/assets/pic/Rectangle 17.png" alt="">
+      </a>
+      <a href="#">
+        <img src="/src/assets/pic/Rectangle 18.png" alt="">
+      </a>
     </figure>
   </div>
 
