@@ -41,7 +41,10 @@ button:hover {
   font-size: 20px;
   font-weight: bold;
 }
-
+.logo a{
+  color: #000;
+  text-decoration: none;
+}
 
 
 /* เอาเหมือนกันลบให้เหลือ header */
@@ -168,13 +171,16 @@ a {
 .bottom-bar {
   width: 98%;
   height: 76px;
-  flex-shrink: 0;
   background: #D9D9D9;
   display: flex; /* เปิดใช้ Flexbox */
   align-items: center; /* จัดตำแหน่งตรงกลางแนวตั้ง */
   justify-content: center;
   margin-top: 10px; /* ขยับลงมาด้านล่างอีก 10px */
   padding: 10px;
+}
+.bottom-bar a{
+  font-weight: bold;
+  font-size: 20px;
 }
 
 
@@ -199,7 +205,7 @@ a {
 }
 
 .custom-div {
-  padding: 10px;
+  padding: 20px;
   width: 98%;
   height: 1000px;
   flex-shrink: 0;
@@ -210,6 +216,9 @@ a {
   flex-direction: row; /* จัดเรียงแนวนอน */
   justify-content: space-between; /* ให้แต่ละรายการกระจายอย่างเท่าๆ กัน */
   align-items: center;
+}
+.custom-div p{
+  font-size: 18px;
 }
 .info-container {
   display: flex;

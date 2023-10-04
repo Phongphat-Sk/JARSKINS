@@ -40,6 +40,10 @@ button:hover {
   font-size: 20px;
   font-weight: bold;
 }
+.logo a{
+    color: #000;
+    text-decoration: none;
+}
 
 
 .table{

@@ -5,7 +5,7 @@
       <!-- ส่วนเพิ่มเติมเพื่อจัดให้ช่องค้นหาแบบวงลีอยู่กึ่งกลาง -->
       <div class="header-content">
         <!-- ด้านซ้ายมีข้อความว่า JARJOSUDLOR เป็น logo -->
-        <div class="logo">JARJOSUDLOR</div>
+        <div class="logo"><a href="">JARJOSUDLOR</a></div>  
         
         <!-- ทางขวาของช่องสีขาวมีลิงค์ตระกล้าสินค้า -->
         <div class="product-icon1">
