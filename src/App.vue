@@ -31,8 +31,8 @@
         <input class="search-input" type="text" placeholder="คุณกำลังมองหาอะไรอยู่"/>
         <button class="serch-button" >ค้นหา</button>
       </div>
-      <a href="src\login.vue">
-        <button class="login">เข้าสู่ระบบ</button>
+      <a href="">
+        <button class="login" id="Login">เข้าสู่ระบบ</button>
       </a>
   </div>
 
@@ -47,11 +47,6 @@
     <img class="w3-image carousel-img" src="/src/assets/pic/carousel3.webp">
   </div>
 </div>
-
-
-  
-
-
 
 
   <div class="nav">
@@ -170,16 +165,17 @@
         </a>
       </div>
     </div>
-
-
   </div>
-
-
 
   
     <RouterView />
   </div>
 </template>
+
+<style>
+
+
+</style>
 
 <script setup>
 import { RouterView } from 'vue-router'
@@ -202,6 +198,12 @@ flickity.on('change', function(index) {
   // แสดงรูปภาพที่เกี่ยวข้องกับหน้าลูกศรปัจจุบัน
   images[index].style.display = 'block';
 });
+
+
+
+
+
+
 
 
 </script>

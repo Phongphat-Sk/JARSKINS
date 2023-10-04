@@ -68,6 +68,7 @@ button:hover{
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: -20px;
 }
 /* สไตล์สำหรับช่องค้นหาแบบวงลี */
 .search-box {
@@ -148,6 +149,7 @@ button:hover{
 }
 
 .contai1{
+  margin-top: -20rem;
   height: 800px;
   margin-left: 2rem;
   display: flex;
@@ -256,6 +258,7 @@ button:hover{
   width: 150px;
   height: 120px;
 }
+
 
 
 .carousel-img {
