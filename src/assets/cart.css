@@ -211,7 +211,6 @@ a {
   justify-content: space-between; /* ให้แต่ละรายการกระจายอย่างเท่าๆ กัน */
   align-items: center;
 }
-
 .info-container {
   display: flex;
   flex-direction: column; /* เปลี่ยนเป็นแนวตั้ง */
@@ -235,5 +234,3 @@ a {
   color: #000000;
   align-self: flex-start; /* ขยับข้อความขึ้นไปด้านบนของ .info-container */
 }
-
-

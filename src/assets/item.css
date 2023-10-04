@@ -46,9 +46,9 @@ button:hover {
     display: flexbox;
     justify-content: center;
     margin-left: 2%;
-  }
+}
   /* รูปแบบสำหรับช่องด้านล่างของ header */
-  .bottom-bar {
+.bottom-bar {
     width: 98%;
     height: 76px;
     flex-shrink: 0;
@@ -58,28 +58,28 @@ button:hover {
     justify-content: center;
     margin-top: 10px; /* ขยับลงมาด้านล่างอีก 10px */
     padding: 10px;
-  }
+}
   
-  .bottom-bar a {
+.bottom-bar a {
     font-weight: bold;
     font-size: 17px;
     text-decoration: none;
     color: #000;
     margin-left: 25px; /* ขยับข้อความไปทางขวา 10px (หรือค่าที่คุณต้องการ) */
-  }
-  .bottom-bar a:hover{
+}
+.bottom-bar a:hover{
     color: red;
-  }
+}
   /* สไตล์สำหรับเส้นคั่น */
-  .separator {
+.separator {
     width: 1px;
     height: 55px;
     background: #000;
     margin-left: 20px; /* ขยับเส้นคั่นไปทางขวาและซ้าย 10px (หรือค่าที่คุณต้องการ) */
-  }
+}
 
   
-  .custom-div {
+.custom-div {
     width: 98%;
     height: 1000px;
     flex-shrink: 0;
@@ -90,7 +90,13 @@ button:hover {
     flex-direction: row; /* จัดเรียงแนวนอน */
     justify-content: space-between; /* ให้แต่ละรายการกระจายอย่างเท่าๆ กัน */
     align-items: center;
-  }
+}
+.custom-div h1{
+    text-align: center;
+    margin: 0 auto;
+    font-size: 190px;
+    color: red;
+}
 /* เอาเหมือนกันลบให้เหลือ header */
 
 .search-box {
