@@ -31,9 +31,9 @@
         <input class="search-input" type="text" placeholder="คุณกำลังมองหาอะไรอยู่"/>
         <button class="serch-button" >ค้นหา</button>
       </div>
-      <a href="">
-        <button class="login" id="Login">เข้าสู่ระบบ</button>
-      </a>
+
+      <button class="login" id="Login">เข้าสู่ระบบ</button>
+      
   </div>
 
   <div class="carousel" data-flickity='{ "wrapAround": true, "autoPlay": true, "imagesLoaded": true }'>
@@ -51,7 +51,7 @@
 
   <div class="nav">
     <figure> 
-      <a href="#">
+      <a href="">
         <img src="src\assets\pic\chevron-arrow-up.png" alt="" width="25px" height="25px">
       </a>
       <img src="src\assets\pic\clipart1589423.png" alt="" width="25px" height="25px">
@@ -115,19 +115,29 @@
     <div class="bigfig">
       <figure>
         <div class="ball">
-           <img src="/src/assets/pic/Rectangle 19.png">
+          <a href="/src/item_knife.html">
+            <img src="/src/assets/pic/Rectangle 19.png">
+          </a>
         </div>
         <div class="ball">
-           <img src="/src/assets/pic/Rectangle 20.png">
+          <a href="/src/item_knife.html">
+            <img src="/src/assets/pic/Rectangle 20.png">
+          </a>
         </div>
         <div class="ball">
-           <img src="/src/assets/pic/Rectangle 21.png">
+          <a href="/src/item_knife.html">
+            <img src="/src/assets/pic/Rectangle 21.png">
+          </a> 
         </div>
         <div class="ball">
-           <img src="/src/assets/pic/Rectangle 22.png">
+          <a href="/src/item_knife.html">
+            <img src="/src/assets/pic/Rectangle 22.png">
+          </a> 
         </div>
         <div class="ball">
-           <img src="/src/assets/pic/Rectangle 23.png">
+          <a href="/src/item_knife.html">
+            <img src="/src/assets/pic/Rectangle 23.png">
+          </a> 
         </div>
       
     </figure>
@@ -198,8 +208,6 @@ flickity.on('change', function(index) {
   // แสดงรูปภาพที่เกี่ยวข้องกับหน้าลูกศรปัจจุบัน
   images[index].style.display = 'block';
 });
-
-
 
 
 

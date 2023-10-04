@@ -12,8 +12,3 @@ app.use(createPinia())
 app.use(router)
 
 app.mount('#app')
-
-login.addEventListener('click', () => {
-    alert('login');
-
-});
