@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/src/assets/cart.css"> 
-    <title>บันทึกการขาย</title>
+    <link rel="stylesheet" href="/src/assets/inven.css"> 
+    <title>สต๊อคสินค้า</title>
 </head>
 <body>
     <div id="app">
@@ -56,9 +56,11 @@
         <div class="table">
 
             <div class="bottom-bar">
-                <a href="/src/buy_order.html" class="order-history">ประวัติการสั่งซื้อ</a>
+                <a href="#" class="order-history">สต๊อคสินค้า</a>
             <div class="separator"></div> 
-            <a href="/src/sell_order.html" class="sales-history">บันทึกการขาย</a>
+                <a href="#" class="sales-history">สินค้าที่กำลังขายอยู่</a>
+            <div class="separator"></div> 
+                <a href="#" class="sales-history">รอส่งสินค้า</a>
 
             <div class="search-box">
                 <input class="search-input" type="text" placeholder="กรอกชื่อไอเทม"/>
@@ -67,21 +69,14 @@
             </div>
         
         <div class="custom-div">
-            <div class="info-item">
-              <p class="info-label">ข้อมูลสินค้า</p>
-            </div>
-            <div class="info-item">
-              <p class="info-label">ข้อมูลสกุล</p>
-            </div>
-            <div class="info-item">
-              <p class="info-label">ราคาซื้อ</p>
-            </div>
-            <div class="info-item">
-              <p class="info-label">วิธีการชำระเงิน</p>
-            </div>
-            <div class="info-item">
-                <p class="info-label">ราคาซื้อ</p>
-            </div>        
+            <svg xmlns="http://www.w3.org/2000/svg" width="158" height="41" viewBox="0 0 158 41" fill="none" class="hii">
+                <path class="custom-svg-path" d="M1 20.5C1 9.73045 9.73045 1 20.5 1H137.5C148.27 1 157 9.73045 157 20.5C157 31.2696 148.27 40 137.5 40H20.5C9.73045 40 1 31.2696 1 20.5Z" fill="#B0B0B0" stroke="white"/>
+                <text x="79" y="20.5" fill="black" text-anchor="middle" alignment-baseline="middle">ชนิด</text>
+            </svg>
+            <div class="line"></div>
+            
+            
+            
         </div>
 
     </div>
