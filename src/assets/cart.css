@@ -116,6 +116,21 @@ button:hover {
   margin-left: auto; /* เลื่อนไปทางขวา */
   margin-right: 10px; /* เลื่อนไปอีกทางขวา (ปรับตามต้องการ) */
 }
+/* ขนาดของ <span> ใน .product-icon1 */
+.product-icon1 span {
+  font-size: 14px; /* เพิ่มขนาดตัวอักษรใน <span> ใน .product-icon1 */
+}
+
+/* ขนาดของ <span> ใน .product-icon2 */
+.product-icon2 span {
+  font-size: 14px; /* เพิ่มขนาดตัวอักษรใน <span> ใน .product-icon2 */
+}
+
+/* ขนาดของ <span> ใน .product-icon3 */
+.product-icon3 span {
+  font-size: 14px; /* เพิ่มขนาดตัวอักษรใน <span> ใน .product-icon3 */
+}
+
 
 /* รวมรวมไอคอนทั้ง 3 ในแถวเดียว */
 .header-content {
@@ -127,8 +142,8 @@ button:hover {
 .wallet {
   display: flex;
   align-items: center;
-  margin-left: 70%; /* เลื่อนไปทางขวาสุด */
-  margin-right: 20px; /* ระยะห่างจากขอบขวาของ header */
+  margin-left: 50%; /* เลื่อนไปทางขวาสุด */
+  margin-right: 60px; /* ระยะห่างจากขอบขวาของ header */
 }
 
 

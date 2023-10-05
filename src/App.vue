@@ -111,7 +111,7 @@
   </div>
 
   <div class="contai3">
-    <h2>Explore millions of offerings tailored to your business needs</h2>
+    <h2>เลือกหมวดหมู่สินค้า</h2>
     <div class="bigfig">
       <figure>
         <div class="ball">
