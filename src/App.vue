@@ -9,7 +9,7 @@
         
         <!-- ทางขวาของช่องสีขาวมีลิงค์ตระกล้าสินค้า -->
         <div class="product-icon1">
-          <a href="/src/sell_order.html">
+          <a href="/src/headder/sell_order.html">
             <img src="/src/assets/pic/icon product.png" >
           </a>
         </div>

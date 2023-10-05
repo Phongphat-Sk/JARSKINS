@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/src/headder/buy_order.css"> 
+    <title>buy_order</title>
+</head>
+<body>
+    <div id="app">
+        <!-- เฮดเดอร์ที่กำหนดเอง -->
+        <header class="custom-header">
+            <!-- ส่วนเพิ่มเติมเพื่อจัดให้ช่องค้นหาแบบวงลีอยู่กึ่งกลาง -->
+            <div class="header-content">
+                <!-- ด้านซ้ายมีข้อความว่า JARJOSUDLOR เป็น logo -->
+                <div class="logo"><a href="">JARJOSUDLOR</a></div>  
+               
+
+                <div class="wallet">
+                    <div class="input-container">
+                        <span class="currency-icon">B</span> 
+                        <input class="wallet-input" type="text" value="1000.00" readonly/>
+                        <button class="add-money-button">+</button>
+
+                    </div>
+                </div>
+                
+                <!-- ทางขวาของช่องสีขาวมีลิงค์ตระกล้าสินค้า -->
+                <div class="product-icon">
+                    <a href="/src/headder/inventory.html">
+                        <p>
+                        <img src="/src/assets/pic/icon product3.png" alt="คลัง" />
+                        </p>เก็บของ
+                    </a>
+                </div>
+                <div class="product-icon">
+                    <a href="/src/headder/buy_order.html">
+                        <p>
+                            <img src="/src/assets/pic/icon product2.png" alt="การซื้อ" />
+                        </p>
+                        การซื้อ
+                    </a>
+                </div>
+                <div class="product-icon">
+                    <a href="/src/headder/sell_order.html">
+                        <p>
+                            <img src="/src/assets/pic/icon product.png" alt="การขาย" />
+                        </p>
+                        การขาย
+                    </a>
+                </div>
+               
+            </div>
+        </header>
+        <!-- เนื้อหาหน้าแอปของคุณ -->
+        <div class="table">
+
+            <div class="bottom-bar">
+                <a href="#" class="order-history">ประวัติการสั่งซื้อ</a>
+            <div class="separator"></div> 
+            <a href="/src/headder/sell_order.html" class="sales-history">บันทึกการขาย</a>
+
+            <div class="search-box">
+                <input class="search-input" type="text" placeholder="กรอกชื่อไอเทม"/>
+                <button class="serch-button" >ค้นหา</button>
+            </div>
+            </div>
+        
+        <div class="custom-div">
+            <div class="info-item">
+              <p class="info-label">ข้อมูลสินค้า</p>
+            </div>
+            <div class="info-item">
+              <p class="info-label">ข้อมูลสกุล</p>
+            </div>
+            <div class="info-item">
+              <p class="info-label">ราคาซื้อ</p>
+            </div>
+            <div class="info-item">
+              <p class="info-label">วิธีการชำระเงิน</p>
+            </div>
+            <div class="info-item">
+                <p class="info-label">ราคาซื้อ</p>
+            </div>        
+        </div>
+
+    </div>
+        
+        
+        
+        
+        <!-- ส่วนของเมนูหลัก แท็ก <RouterView /> จะแสดงหน้าเว็บแต่ละหน้าที่ถูกโหลดโดย Vue Router -->
+        <RouterView />
+    </div>
+</body>
+</html>
