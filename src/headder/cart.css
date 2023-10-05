@@ -96,6 +96,7 @@ button:hover {
   margin-top: 5px;
   display: flex;
   align-items: center;
+  margin-right: 20px;
 }
 
 /* ขนาดของรูปภาพสำหรับ icon2 และ icon3 */
@@ -234,6 +235,19 @@ a {
   color: #000000;
   align-self: flex-start; /* ขยับข้อความขึ้นไปด้านบนของ .info-container */
 }
+
+.iconinbar{
+  display: flex;
+  width: 100%;
+  align-items: center;
+}
+
+.navbar{
+  border: 1px #333 solid;
+  border-radius: 100rem;
+  padding: 4px;
+  overflow: hidden;
+}
 .dropdown-content {
   display: none;
   position: absolute;
@@ -251,8 +265,15 @@ a {
   display: block;
   text-align: left;
 }
+.dropdown-content a:hover{
+  background-color: lightgray;
+}
 
-
+.dropdown img{
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
 
 .dropdown:hover .dropdown-content {
   display: block;
