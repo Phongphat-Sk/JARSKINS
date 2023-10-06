@@ -234,3 +234,11 @@ a {
   color: #000000;
   align-self: flex-start; /* ขยับข้อความขึ้นไปด้านบนของ .info-container */
 }
+
+.ropdown-content{
+  margin-left: 100px;
+}
+
+.navbar {
+  margin-right: -40px; /* Adjust the value as needed to move it to the left */
+}
