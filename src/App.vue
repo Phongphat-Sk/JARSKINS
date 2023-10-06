@@ -157,7 +157,7 @@
         </div>
         <img src="src\assets\pic\trolley-cart.png" alt="">
       </div>
-      <a href="https://pencil05.github.io/market/">
+      <a href="src/item/item_knife.html">
           <button>ไปตลาด</button>
         </a>
       </div>
@@ -170,7 +170,7 @@
           </div>
           <img src="src\assets\pic\shop.png" alt="">
         </div>
-        <a href="https://pencil05.github.io/market/">
+        <a href="src/item/item_knife.html">
           <button>รายการ</button>
         </a>
       </div>
