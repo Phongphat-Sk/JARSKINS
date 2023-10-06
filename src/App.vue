@@ -115,27 +115,27 @@
     <div class="bigfig">
       <figure>
         <div class="ball">
-          <a href="/src/item_knife.html">
+          <a href="/src/item/item_knife.html">
             <img src="/src/assets/pic/Rectangle 19.png">
           </a>
         </div>
         <div class="ball">
-          <a href="/src/item_knife.html">
+          <a href="/src/item/item_pistol.html">
             <img src="/src/assets/pic/Rectangle 20.png">
           </a>
         </div>
         <div class="ball">
-          <a href="/src/item_knife.html">
+          <a href="/src/item/item_submach.html">
             <img src="/src/assets/pic/Rectangle 21.png">
           </a> 
         </div>
         <div class="ball">
-          <a href="/src/item_knife.html">
+          <a href="/src/item/item_rifle.html">
             <img src="/src/assets/pic/Rectangle 22.png">
           </a> 
         </div>
         <div class="ball">
-          <a href="/src/item_knife.html">
+          <a href="/src/item/item_heavymach.html">
             <img src="/src/assets/pic/Rectangle 23.png">
           </a> 
         </div>
