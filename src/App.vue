@@ -6,7 +6,7 @@
       <div class="header-content">
         <!-- ด้านซ้ายมีข้อความว่า JARJOSUDLOR เป็น logo -->
         <div class="logo"><a href="">JARJOSUDLOR</a></div>  
-        <div class="Market"><a href="">Market</a></div>  
+        <div class="Market"><a href="/src/item/item_knife.html">Market</a></div>  
 
        
        

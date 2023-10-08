@@ -212,7 +212,7 @@ a {
   flex-wrap: wrap
 }
 .item{
-  margin: 10px;
+  margin: .7rem;
   width: 250px;
   height: 330px;
   background-color: silver;
@@ -248,8 +248,6 @@ a {
   box-shadow: 0 .1px .1px .1px rgb(255, 119, 119) ;
   background: linear-gradient(to right, #ff0000, transparent);
 }
-
-
 
 
 
@@ -354,3 +352,4 @@ a {
 .dropdown:hover .dropdown-content {
   display: block;
 }
+
