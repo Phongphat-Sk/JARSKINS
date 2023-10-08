@@ -85,66 +85,6 @@ button:hover {
   color: #fff;
 }
 
-.header-content {
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-/* รูปแบบสำหรับ icon2 และ icon3 */
-.product-icon {
-  margin-top: 5px;
-  display: flex;
-  align-items: center;
-}
-
-/* ขนาดของรูปภาพสำหรับ icon2 และ icon3 */
-.product-icon img {
-  width: 40px;
-  height: 35px;
-}
-.header-content p{
-  font-size: 10px;
-}
-
-
-/* รวมรวมไอคอนทั้ง 3 ในแถวเดียว */
-.header-content {
-  display: flex;
-  align-items: center;
-}
-
-
-.wallet {
-  display: flex;
-  align-items: center;
-  margin-left: 50%; /* เลื่อนไปทางขวาสุด */
-  margin-right: 60px; /* ระยะห่างจากขอบขวาของ header */
-}
-
-
-/* รูปแบบสำหรับแท็กหลักที่ครอบคลุมกล่อง input */
-.input-container {
-  display: flex;
-  align-items: center;
-  border: 1px solid #333; /* กรอบล้อมกล่อง input */
-  border-radius: 5px; /* ปรับรูปร่างกรอบ */
-  padding: 3px; /* ระยะห่างของข้อมูลภายในกรอบ */
-  width: fit-content; /* ปรับขนาดกล่องให้พอดีกับเนื้อหา */
-}
-
-
-
-/* รูปแบบสำหรับช่องรับจำนวนเงิน */
-.wallet-input {
-  font-size: 14px; /* ปรับขนาดตามความต้องการ */
-  border: none;
-  padding: 0;
-  width: 100%;
-  background-color: transparent; /* ลบพื้นหลัง */
-}
-
-
 /* styles.css */
 
 /* สไตล์สำหรับลิงค์ที่ไม่มีเส้นใต้ */
@@ -239,4 +179,111 @@ a {
   line-height: normal;
   color: #000000;
   align-self: flex-start; /* ขยับข้อความขึ้นไปด้านบนของ .info-container */
+}
+
+
+
+
+
+
+
+.header-content {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+/* รูปแบบสำหรับ icon2 และ icon3 */
+.product-icon {
+  margin-top: 5px;
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+
+/* ขนาดของรูปภาพสำหรับ icon2 และ icon3 */
+.product-icon img {
+  width: 40px;
+  height: 35px;
+}
+.header-content p{
+  font-size: 10px;
+}
+
+
+/* รวมรวมไอคอนทั้ง 3 ในแถวเดียว */
+.header-content {
+  display: flex;
+  align-items: center;
+}
+
+
+.wallet {
+  display: flex;
+  align-items: center;
+  margin-left: 50%; /* เลื่อนไปทางขวาสุด */
+  margin-right: 60px; /* ระยะห่างจากขอบขวาของ header */
+}
+
+
+/* รูปแบบสำหรับแท็กหลักที่ครอบคลุมกล่อง input */
+.input-container {
+  display: flex;
+  align-items: center;
+  border: 1px solid #333; /* กรอบล้อมกล่อง input */
+  border-radius: 5px; /* ปรับรูปร่างกรอบ */
+  padding: 3px; /* ระยะห่างของข้อมูลภายในกรอบ */
+  width: fit-content; /* ปรับขนาดกล่องให้พอดีกับเนื้อหา */
+}
+
+
+
+/* รูปแบบสำหรับช่องรับจำนวนเงิน */
+.wallet-input {
+  font-size: 14px; /* ปรับขนาดตามความต้องการ */
+  border: none;
+  padding: 0;
+  width: 100%;
+  background-color: transparent; /* ลบพื้นหลัง */
+}
+
+
+
+
+
+.navbar{
+  border: 1px #333 solid;
+  border-radius: 100rem;
+  padding: 4px;
+  overflow: hidden;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+.dropdown-content a:hover{
+  background-color: lightgray;
+}
+
+.dropdown img{
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
 }
