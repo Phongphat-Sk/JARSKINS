@@ -313,7 +313,11 @@ a {
 }
 
 
-
+.item:hover{
+  background-color: #D9D9D9;
+  border: white 1px solid;
+  cursor: pointer;
+}
 
 
 .navbar{
