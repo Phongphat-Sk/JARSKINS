@@ -6,33 +6,57 @@
       <div class="header-content">
         <!-- ด้านซ้ายมีข้อความว่า JARJOSUDLOR เป็น logo -->
         <div class="logo"><a href="">JARJOSUDLOR</a></div>  
-        
-        <!-- ทางขวาของช่องสีขาวมีลิงค์ตระกล้าสินค้า -->
-        <div class="product-icon1">
-          <a href="/src/headder/sell_order.html">
-            <img src="/src/assets/pic/icon product.png" >
-          </a>
-        </div>
-        
+        <div class="Market"><a href="/src/item/item_knife.html">Market</a></div>  
+
+       
+       
+        <div class="wallet">
+                    <div class="input-container">
+                        <span class="currency-icon">B</span> 
+                        <input class="wallet-input" type="text" value="1000.00" readonly/>
+                        <button class="add-money-button">+</button>
+
+                    </div>
+                </div>
+                
+                <!-- ทางขวาของช่องสีขาวมีลิงค์ตระกล้าสินค้า -->
+
+                    <div class="product-icon">
+                        <a href="/src/headder/inventory.html">
+                        <p>
+                        <img src="/src/assets/pic/icon product3.png" alt="คลัง" />
+                        </p>เก็บของ
+                    </a>
+                </div>
+                <div class="product-icon">
+                    <a href="/src/headder/buy_order.html">
+                        <p>
+                            <img src="/src/assets/pic/icon product2.png" alt="การซื้อ" />
+                        </p>
+                        การซื้อ
+                    </a>
+                </div>
+                <div class="product-icon">
+                    <a href="/src/headder/sell_order.html">
+                        <p>
+                            <img src="/src/assets/pic/icon product.png" alt="การขาย" />
+                        </p>
+                        การขาย
+                    </a>
+                </div> 
+                
+                <div class="login"><a href="">เข้าสู่ระบบ</a></div>  
+
       </div>
     </header>
 
     <div class="subhead">
       <div class="alltag">
-      <div class="tags">
-        <button><a>Give away</a></button>
-      </div>
-      <div class="tags">
-        <button><a>Market</a></button>
-      </div>
+      
+     
       </div>
 
-      <div class="search-box">
-        <input class="search-input" type="text" placeholder="คุณกำลังมองหาอะไรอยู่"/>
-        <button class="serch-button" >ค้นหา</button>
-      </div>
 
-      <button class="login" id="Login">เข้าสู่ระบบ</button>
       
   </div>
 

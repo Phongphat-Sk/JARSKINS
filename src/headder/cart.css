@@ -236,12 +236,6 @@ a {
   align-self: flex-start; /* ขยับข้อความขึ้นไปด้านบนของ .info-container */
 }
 
-.iconinbar{
-  display: flex;
-  width: 100%;
-  align-items: center;
-}
-
 .navbar{
   border: 1px #333 solid;
   border-radius: 100rem;
