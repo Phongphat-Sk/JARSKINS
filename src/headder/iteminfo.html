@@ -7,22 +7,76 @@
     <link rel="stylesheet" href="iteminfo.css">
 </head>
 <body>
-    <div class="text">
-        <a href="/src/item/item_knife.html" class="red">Market</a>
-        <p class="red" id="itemname">item name</p>
-    </div>
-    <div class="info">
-        <div class="item">
-            <div class="itemimg">
-                <img src="playerRight.png" alt="">
+    <header class="custom-header">
+        <!-- ส่วนเพิ่มเติมเพื่อจัดให้ช่องค้นหาแบบวงลีอยู่กึ่งกลาง -->
+        <div class="header-content">
+            <!-- ด้านซ้ายมีข้อความว่า JARJOSUDLOR เป็น logo -->
+            <div class="logo"><a href="/">JARJOSUDLOR</a></div>  
+
+            <div class="wallet">
+                <div class="input-container">
+                    <span class="currency-icon">B</span> 
+                    <input class="wallet-input" type="text" value="1000.00" readonly/>
+                    <button class="add-money-button">+</button>
+
+                </div>
             </div>
-            <div class="line"></div>
-            <h1>฿81.42</h1>
-            <p class="red">MAC-10</p>
-            <br>
-            <h3>Sakkaku</h3>
-            <div class="linee"></div>
+            
+            <!-- ทางขวาของช่องสีขาวมีลิงค์ตระกล้าสินค้า -->
+            <div class="product-icon3">
+                <a href="/src/stores/cart.html">
+                    <img src="/src/assets/pic/icon product3.png" alt="ตระกล้าสินค้า" />
+                </a>
+            </div>
+            <div class="product-icon2">
+                <a href="/src/stores/cart.html">
+                    <img src="/src/assets/pic/icon product2.png" alt="ตระกล้าสินค้า" />
+                </a>
+            </div>
+            <div class="product-icon1">
+                <a href="/src/stores/cart.html">
+                    <img src="/src/assets/pic/icon product.png" alt="ตระกล้าสินค้า" />
+                </a>
+            </div>
+           
+        </div>
+    </header>
+    <!-- จัดmargin -->
+    <div class="push">
+
+        <div class="text">
+            <a href="/src/item/item_knife.html" class="red">Market</a>
+        <p class="red" id="itemname">item name</p>
+        </div>
+        <div class="infoitem">
+            <div class="item">
+                <div class="itemimg">
+                    <img src="playerRight.png" alt="">
+                </div>
+                <!-- ใช้flex -->
+                <div class="line"></div>
+                <div class="flex">
+                    <p>ราคาอ้างอิง: </p>
+                    <p class="red"> ฿ 1431.11($39.28)</p>
+                </div>
+                <button>การขาย</button>
+            </div>
+            <div class="info">
+                <div class="itemname"><h1>itemname (ผ่านการทดสอบ)</h1></div>
+                <div class="infotex">
+                    <h3>คุณภาพ</h3>
+                    <div class="separator"></div> 
+                    <h3 class="red">เกรดมาตรฐานทางทหาร</h3>
+                    <div class="vak"></div>
+                    <h3>ประเภท</h3>
+                    <div class="separator"></div> 
+                    <h3>ไรเฟิล</h3>
+                </div>
+                <h2 class="red">coming soon</h2>
+            </div>
         </div>
     </div>
 </body>
+
+
 </html>

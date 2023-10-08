@@ -84,7 +84,7 @@
                 </div>
             </div>
             <div class="itembox">
-                <div class="item" herf="iteminfo.html">
+                <div class="item" onclick="infoitem()">
                     <div class="itemimg">
                         <img src="playerRight.png" alt="">
                     </div>
@@ -95,7 +95,7 @@
                     <h3>Sakkaku</h3>
                     <div class="linee"></div>
                 </div>
-                <div class="item">
+                <div class="item" onclick="infoitem()">
                     <div class="itemimg">
                         <img src="playerRight.png" alt="">
                     </div>
@@ -175,4 +175,13 @@
         <RouterView />
     </div>
 </body>
+<script>
+    function infoitem() {
+    // ใส่ URL ของหน้าเว็บที่คุณต้องการลิงค์ไปที่นี่
+    var url = 'iteminfo.html'; 
+
+    // เปิดหน้าเว็บในหน้าปัจจุบัน
+    window.location.href = url;
+}
+</script>
 </html>
