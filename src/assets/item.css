@@ -289,3 +289,13 @@ button:hover {
   box-shadow: 0 .1px .1px .1px rgb(255, 119, 119) ;
   background: linear-gradient(to right, #ff0000, transparent);
 }
+
+
+
+/*ตกแต่งitem hover เท่ๆ*/
+.item:hover{
+  cursor: pointer;
+  border: 2px solid white;
+  background-color: #D9D9D9;
+
+}

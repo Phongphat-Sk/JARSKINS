@@ -272,7 +272,7 @@ a {
   flex-wrap: wrap
 }
 .item{
-  margin: 10px;
+  margin: .7rem;
   width: 250px;
   height: 330px;
   background-color: silver;
@@ -309,3 +309,11 @@ a {
   background: linear-gradient(to right, #ff0000, transparent);
 }
 
+
+
+/*ตกแต่งitem hover เท่ๆ*/
+.item:hover{
+  cursor: pointer;
+  border: 2px solid white;
+  background-color: #D9D9D9;
+}
