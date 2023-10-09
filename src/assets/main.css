@@ -5,9 +5,11 @@
   padding: 0;
   font-family: 'IBM Plex Sans Thai', sans-serif;
 }
-
+p,h2{
+  color: white;
+}
 body{
-  background-color: #fff;
+  background-color: #1D2126;
 }
 
 button:hover{
@@ -18,7 +20,7 @@ button:hover{
 .nav{
   background-color: lightgray;
   margin-right: 2rem;
-  height: 130px;
+  height: 100px;
   width: 40px;
   border-radius: 40px;
   position: fixed;
@@ -36,25 +38,76 @@ button:hover{
 /* สไตล์สำหรับเฮดเดอร์ที่กำหนดเอง */
 .custom-header {
   width: 100%;
-  height: 65px;
-  flex-shrink: 0;
-  background: #f5f5f5;
+  height: 70px;
+  background: #272C33;
   border-bottom: #333 1px solid;
-  /* box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.25); */
   display: flex;
-  justify-content: space-between;
-  align-items: center;
   padding: 0 40px; /* ปรับการเว้นระยะตามต้องการ */
-  box-sizing: border-box; /* ทำให้ความกว้างและความสูงไม่เพิ่มขึ้นเมื่อเพิ่ม border และ padding */
+  box-sizing: border-box;
 }
 
-/* สไตล์สำหรับเนื้อหาในเฮดเดอร์ */
 .header-content {
   width: 100%;
   display: flex;
+  align-items: center;
   justify-content: space-between;
+}
+
+/* ขนาดของรูปภาพสำหรับ icon2 และ icon3 */
+.product-icon img {
+  width: 40px;
+  height: 35px;
+}
+.header-content p{
+  font-size: 10px;
+}
+
+/* รูปแบบสำหรับแท็กหลักที่ครอบคลุมกล่อง input */
+.input-container {
+  display: flex;
+  align-items: center;
+  border: 1px solid #333; /* กรอบล้อมกล่อง input */
+  border-radius: 5px; /* ปรับรูปร่างกรอบ */
+  padding: 3px; /* ระยะห่างของข้อมูลภายในกรอบ */
+  width: fit-content; /* ปรับขนาดกล่องให้พอดีกับเนื้อหา */
+}
+a {
+  text-decoration: none;
+}
+
+.into{
+  display: flex;
   align-items: center;
 }
+.wallet{
+  background-color: #fff;
+  width: 20%;
+  
+}
+.wallet-input {
+  font-size: 14px; /* ปรับขนาดตามความต้องการ */
+  border: none;
+  width: 100%;
+  padding: 0;
+  background-color: transparent; /* ลบพื้นหลัง */
+}
+.product-icon {
+  width: 25rem;
+  margin-right: -7rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.product-icon a{
+  color: lightgray;
+  font-size: 16px;
+  margin-right: 20px;
+}
+.product-icon a:hover{
+  color: #fff;
+}
+
 
 /* สไตล์สำหรับโลโก้ */
 .logo {
@@ -62,7 +115,7 @@ button:hover{
   font-weight: bold;
 }
 .logo a{
-  color: #000;
+  color: #fff;
   text-decoration: none;
 }
 
@@ -107,6 +160,9 @@ button:hover{
   background-color: rgb(179, 5, 5);
   color: #fff;
 }
+.contai1 p{
+  color: white;
+}
 .contai1 .tags button{
   color: black;
   background: #f5f5f5;
@@ -121,7 +177,7 @@ button:hover{
   padding: 14px 10px;
 }
 .tags button{
-  color: black;
+  color: #333;
   background: silver;
   font-weight: bold;
   padding: 3px 25px;
@@ -162,6 +218,8 @@ button:hover{
   width: 250px;
   height: 140px;
   margin: .2rem;
+  background-color: whitesmoke;
+  border-radius: 10px;
 }
 
 .contai3{
@@ -182,6 +240,7 @@ button:hover{
   background-color: lightgray;
   margin: .5rem;
   border-radius: 190px;
+  border: white 3px solid;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -190,6 +249,7 @@ button:hover{
 .ball img {
   width: 100%; /* ปรับขนาดความกว้างของรูปให้เท่ากับ .ball */
   height: 100%; /* ปรับขนาดความสูงของรูปให้เท่ากับ .ball */
+  margin-top: 9px;
 }
 
 
@@ -224,6 +284,10 @@ button:hover{
   font-size: 25px;
   font-weight: bold;
 }
+.mtex h3,b,p{
+  color: #333;
+}
+
 .marketflex{
   display: flex;
 }
@@ -255,193 +319,29 @@ button:hover{
   transform: translateY(60px); /* ปรับตามความต้องการ */
 }
 
-.header-content {
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
 /* รูปแบบสำหรับ icon2 และ icon3 */
-.product-icon {
-  margin-top: 5px;
-  display: flex;
-  align-items: center;
-  margin-right: 20px;
+
+footer{
+  padding: 0 40px;
 }
-
-/* ขนาดของรูปภาพสำหรับ icon2 และ icon3 */
-.product-icon img {
-  width: 40px;
-  height: 35px;
-}
-.header-content p{
-  font-size: 10px;
-}
-
-
-/* รวมรวมไอคอนทั้ง 3 ในแถวเดียว */
-.header-content {
-  display: flex;
-  align-items: center;
-}
-
-
-.wallet {
-  display: flex;
-  align-items: center;
-  margin-left: 50%; /* เลื่อนไปทางขวาสุด */
-  margin-right: 60px; /* ระยะห่างจากขอบขวาของ header */
-}
-
-
-/* รูปแบบสำหรับแท็กหลักที่ครอบคลุมกล่อง input */
-.input-container {
-  display: flex;
-  align-items: center;
-  border: 1px solid #333; /* กรอบล้อมกล่อง input */
-  border-radius: 5px; /* ปรับรูปร่างกรอบ */
-  padding: 3px; /* ระยะห่างของข้อมูลภายในกรอบ */
-  width: fit-content; /* ปรับขนาดกล่องให้พอดีกับเนื้อหา */
-}
-
-/* สไตล์สำหรับลิงค์ที่ไม่มีเส้นใต้ */
-a {
-  text-decoration: none;
-}
-
-
-/* รูปแบบสำหรับช่องรับจำนวนเงิน */
-.wallet-input {
-  font-size: 14px; /* ปรับขนาดตามความต้องการ */
-  border: none;
-  padding: 0;
-  width: 100%;
-  background-color: transparent; /* ลบพื้นหลัง */
-}
-
-
-
-
-
-.navbar{
-  border: 1px #333 solid;
-  border-radius: 100rem;
-  padding: 4px;
-  overflow: hidden;
-}
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #f9f9f9;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
-}
-
-.dropdown-content a {
-  float: none;
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-  text-align: left;
-}
-.dropdown-content a:hover{
-  background-color: lightgray;
-}
-
-.dropdown img{
-  width: 30px;
-  height: 30px;
-  cursor: pointer;
-}
-
-.dropdown:hover .dropdown-content {
-  display: block;
-}
-
-
-/* สไตล์สำหรับโลโก้ */
-.Market {
-  font-size: 20px;
-  margin-right: -100px;
-}
-.Market a{
-  color: #000;
-  text-decoration: none;
-}
-
-
-/* สไตล์สำหรับโลโก้ */
-.login {
-  font-size: 14px;
-  margin-right: -20px;  
-}
-.login a{
-  color: #000;
-  text-decoration: none;
-}
-
-
 .site-footer {
-  width: 100%;
-  height: 150px;
+  height: 200px;
   background-color: #333; /* สีพื้นหลังของ footer */
   color: #fff; /* สีข้อความใน footer */
-  padding: 20px; /* ขอบในของ footer */
-  text-align: center; /* จัดข้อความใน footer ไปตรงกลาง */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
 }
 
-.hh1 {
-  font-size: 20px; /* ปรับขนาดของ h6 เป็น 20px */
-  margin-left: -1300px;
+.f2{
+  display: flex;
+  justify-content: space-between;
+  width: 20rem;
 }
-.hh2 {
-  font-size: 20px; /* ปรับขนาดของ h6 เป็น 20px */
-  margin-top: -85px;
-  margin-left: 800px;
-
+.f1 p{
+  color: white;
 }
-.hh3 {
-  font-size: 20px; /* ปรับขนาดของ h6 เป็น 20px */
-  margin-top: -114px;
-  margin-left: 1200px;
-
-}
-.l1{
-  margin-left: -1090px;
-  font-size: 11;
-
-}
-.l2{
-  margin-left: -850px;
-  font-size: 11;
-
-}
-.l3{
-  margin-left: 819px;
-  font-size: 11;
-
-}
-.l4{
-  margin-left: 810px;
-  font-size: 11;
-
-}
-.l5{
-  margin-left: 790px;
-  font-size: 11;
-}
-.l6{
-  margin-left: 1125px;
-  font-size: 11;
-}
-.l7{
-  margin-left: 1125px;
-  font-size: 11;
-}
-
-/* CSS */
-.white-text {
+.f2 p{
   color: white;
 }

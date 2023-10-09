@@ -6,59 +6,26 @@
       <div class="header-content">
         <!-- ด้านซ้ายมีข้อความว่า JARJOSUDLOR เป็น logo -->
         <div class="logo"><a href="">JARJOSUDLOR</a></div>  
-        <div class="Market"><a href="/src/item/item_knife.html">Market</a></div>  
-
-       
-       
-        <div class="wallet">
-                    <div class="input-container">
-                        <span class="currency-icon">B</span> 
-                        <input class="wallet-input" type="text" value="1000.00" readonly/>
-                        <button class="add-money-button">+</button>
-
-                    </div>
+        <div class="into">
+          <div class="wallet">
+            <div class="input-container">
+              <span class="currency-icon">B</span> 
+                  <input class="wallet-input" type="text" value=" 0.00" readonly/>
+                  <button class="add-money-button">+</button>
                 </div>
-                
-                <!-- ทางขวาของช่องสีขาวมีลิงค์ตระกล้าสินค้า -->
-
-                    <div class="product-icon">
-                        <a href="/src/headder/inventory.html">
-                        <p>
-                        <img src="/src/assets/pic/icon product3.png" alt="คลัง" />
-                        </p>เก็บของ
-                    </a>
-                </div>
+          </div> 
                 <div class="product-icon">
-                    <a href="/src/headder/buy_order.html">
-                        <p>
-                            <img src="/src/assets/pic/icon product2.png" alt="การซื้อ" />
-                        </p>
-                        การซื้อ
-                    </a>
-                </div>
-                <div class="product-icon">
-                    <a href="/src/headder/sell_order.html">
-                        <p>
-                            <img src="/src/assets/pic/icon product.png" alt="การขาย" />
-                        </p>
-                        การขาย
-                    </a>
+                    <a href="/src/item/item_knife.html">ตลาด</a>
+                    <a href="/src/headder/inventory.html">คลังสินค้า</a>
+                    <a href="/src/headder/buy_order.html">การซื้อ</a>
+                    <a href="/src/headder/sell_order.html">การขาย</a>
+                    <a href="">เข้าสู่ระบบ</a>
                 </div> 
+          </div>
                 
-                <div class="login"><a href="">เข้าสู่ระบบ</a></div>  
 
       </div>
     </header>
-
-    <div class="subhead">
-      <div class="alltag">
-      
-     
-      </div>
-
-
-      
-  </div>
 
   <div class="carousel" data-flickity='{ "wrapAround": true, "autoPlay": true, "imagesLoaded": true }'>
   <div class="carousel-cell">
@@ -79,7 +46,6 @@
         <img src="src\assets\pic\chevron-arrow-up.png" alt="" width="25px" height="25px">
       </a>
       <img src="src\assets\pic\clipart1589423.png" alt="" width="25px" height="25px">
-      <img src="src\assets\pic\playerLeft.png" alt="" width="25px" height="25px">
     </figure>
   </div>
 
@@ -89,16 +55,16 @@
     <p>ค้นหาบ่อย : </p>
     <div class="alltag">
       <div class="tags">
-        <button><a>ค้นหาบ่อย</a></button>
+        <button>ค้นหาบ่อย</button>
       </div>
       <div class="tags">
-        <button><a>ค้นหาบ่อย</a></button>
+        <button>ค้นหาบ่อย</button>
       </div>
       <div class="tags">
-        <button><a>ค้นหาบ่อย</a></button>
+        <button>ค้นหาบ่อย</button>
       </div>
       <div class="tags">
-        <button><a>ค้นหาบ่อย</a></button>
+        <button>ค้นหาบ่อย</button>
       </div>
     </div>
   </div>
@@ -203,24 +169,30 @@
 
   
   <footer class="site-footer">
-        <h6 class="hh1">JARJOSUDLOR</h6>
-        
-        <p class="l1">Powered by Steam. Not affiliated with Valve Corp.</p>
-        <p class="l2">
-            &copy; 2023 JARJOSUDLOR | 
-        <a class="footer-link white-text" href="#">นโยบายความเป็นส่วนตัว</a> | 
-        <a class="footer-link white-text" href="#">ข้อกำหนดการให้บริการ</a> | 
-        <a class="footer-link white-text" href="#">นโยบายคุกกี้</a>
+      <div class="f1">
+        <h3>JARJOSUDLOR</h3>
+        <p>Powered by Steam. Not affiliated with Valve Corp.</p>
+        <p>
+          &copy; 2023 JARJOSUDLOR | 
+          <a>นโยบายความเป็นส่วนตัว</a> | 
+          <a>ข้อกำหนดการให้บริการ</a> | 
+          <a>นโยบายคุกกี้</a>
         </p>
-        
-        <h6 class="hh2">Introduction</h6>
-        <p class="l3">Privacy Statement</p>
-        <p class="l4">Terms of Service</p>
-        <p class="l5">Cookie policy</p>
+      </div>
+      <div class="f2">
+        <div class="f21">
 
-        <h6 class="hh3">Payment methods</h6>
-        <p class="l6">prompt pay</p>
-        <p class="l7">true money</p>
+          <h3>Introduction</h3>
+          <p>Privacy Statement</p>
+          <p>Terms of Service</p>
+          <p>Cookie policy</p>
+        </div>
+        <div class="f22">
+          <h3>Payment methods</h3>
+          <p>prompt pay</p>
+          <p>true money</p>
+        </div>
+      </div>
 
 
     </footer>
