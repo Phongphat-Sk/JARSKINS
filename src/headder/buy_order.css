@@ -330,3 +330,7 @@ a {
 .ropdown-content{
   margin-left: 100px;
 }
+
+.info-label {
+  color: black; /* เปลี่ยนสีข้อความเป็นสีดำ */
+}

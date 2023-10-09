@@ -310,3 +310,6 @@ a {
   align-self: flex-start; /* ขยับข้อความขึ้นไปด้านบนของ .info-container */
 }
 
+.info-label {
+  color: black; /* เปลี่ยนสีข้อความเป็นสีดำ */
+}
