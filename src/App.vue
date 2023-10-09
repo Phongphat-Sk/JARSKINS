@@ -202,7 +202,28 @@
   </div>
 
   
-    <RouterView />
+  <footer class="site-footer">
+        <h6 class="hh1">JARJOSUDLOR</h6>
+        
+        <p class="l1">Powered by Steam. Not affiliated with Valve Corp.</p>
+        <p class="l2">
+            &copy; 2023 JARJOSUDLOR | 
+        <a class="footer-link white-text" href="#">นโยบายความเป็นส่วนตัว</a> | 
+        <a class="footer-link white-text" href="#">ข้อกำหนดการให้บริการ</a> | 
+        <a class="footer-link white-text" href="#">นโยบายคุกกี้</a>
+        </p>
+        
+        <h6 class="hh2">Introduction</h6>
+        <p class="l3">Privacy Statement</p>
+        <p class="l4">Terms of Service</p>
+        <p class="l5">Cookie policy</p>
+
+        <h6 class="hh3">Payment methods</h6>
+        <p class="l6">prompt pay</p>
+        <p class="l7">true money</p>
+
+
+    </footer>
   </div>
 </template>
 

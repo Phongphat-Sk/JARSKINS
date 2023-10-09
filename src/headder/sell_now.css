@@ -311,3 +311,67 @@ a {
 .dropdown:hover .dropdown-content {
   display: block;
 }
+
+
+.site-footer {
+  width: 100%;
+  height: 150px;
+  background-color: #333; /* สีพื้นหลังของ footer */
+  color: #fff; /* สีข้อความใน footer */
+  padding: 20px; /* ขอบในของ footer */
+  text-align: center; /* จัดข้อความใน footer ไปตรงกลาง */
+}
+
+.hh1 {
+  font-size: 20px; /* ปรับขนาดของ h6 เป็น 20px */
+  margin-left: -1300px;
+}
+.hh2 {
+  font-size: 20px; /* ปรับขนาดของ h6 เป็น 20px */
+  margin-top: -85px;
+  margin-left: 800px;
+
+}
+.hh3 {
+  font-size: 20px; /* ปรับขนาดของ h6 เป็น 20px */
+  margin-top: -114px;
+  margin-left: 1200px;
+
+}
+.l1{
+  margin-left: -1090px;
+  font-size: 11;
+
+}
+.l2{
+  margin-left: -850px;
+  font-size: 11;
+
+}
+.l3{
+  margin-left: 819px;
+  font-size: 11;
+
+}
+.l4{
+  margin-left: 810px;
+  font-size: 11;
+
+}
+.l5{
+  margin-left: 790px;
+  font-size: 11;
+}
+.l6{
+  margin-left: 1125px;
+  font-size: 11;
+}
+.l7{
+  margin-left: 1125px;
+  font-size: 11;
+}
+
+/* CSS */
+.white-text {
+  color: white;
+}
