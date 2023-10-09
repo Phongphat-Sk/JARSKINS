@@ -9,69 +9,43 @@
 </head>
 <body>
     <div id="app">
-        <!-- เฮดเดอร์ที่กำหนดเอง -->
         <header class="custom-header">
             <!-- ส่วนเพิ่มเติมเพื่อจัดให้ช่องค้นหาแบบวงลีอยู่กึ่งกลาง -->
             <div class="header-content">
-                <!-- ด้านซ้ายมีข้อความว่า JARJOSUDLOR เป็น logo -->
                 <div class="logo"><a href="/">JARJOSUDLOR</a></div>  
-                <div class="Market"><a href="/src/item/item_knife.html">Market</a></div>  
-
-                
-
-                <div class="wallet">
+                <div class="into">
+                  <div class="wallet">
                     <div class="input-container">
-                        <span class="currency-icon">B</span> 
-                        <input class="wallet-input" type="text" value="1000.00" readonly/>
-                        <button class="add-money-button">+</button>
-
+                      <span class="currency-icon">B</span> 
+                          <input class="wallet-input" type="text" value=" 0.00" readonly/>
+                          <button class="add-money-button">+</button>
+                        </div>
+                  </div> 
+                        <div class="product-icon">
+                            <a href="/src/item/item_knife.html">ตลาด</a>
+                            <a href="/src/headder/inventory.html">คลังสินค้า</a>
+                            <a href="/src/headder/buy_order.html">การซื้อ</a>
+                            <a href="/src/headder/sell_order.html">การขาย</a>
+    
+                        </div> 
+                        <div class="navbar">
+                            <div class="dropdown">
+                                <img src="src\assets\pic\playerLeft.png" alt=""><!--ใส่รูปตรงนี้ครับ-->
+                                <i class="fa fa-caret-down"></i>
+                                <div class="dropdown-content">
+                                    <a href="/src/headder/profile.html">
+                                        <img src="/src/assets/pic/setting.png" alt="">
+                                    </a>    
+                                    <a href="#">
+                                        <img src="/src/assets/pic/Exit.png" alt="">
+                                    </a>                                            
+                            </div>
+                        </div> 
                     </div>
-                </div>
-                
-                <!-- ทางขวาของช่องสีขาวมีลิงค์ตระกล้าสินค้า -->
-
-                    <div class="product-icon">
-                        <a href="/src/headder/inventory.html">
-                        <p>
-                        <img src="/src/assets/pic/icon product3.png" alt="คลัง" />
-                        </p>เก็บของ
-                    </a>
-                </div>
-                <div class="product-icon">
-                    <a href="/src/headder/buy_order.html">
-                        <p>
-                            <img src="/src/assets/pic/icon product2.png" alt="การซื้อ" />
-                        </p>
-                        การซื้อ
-                    </a>
-                </div>
-                <div class="product-icon">
-                    <a href="/src/headder/sell_order.html">
-                        <p>
-                            <img src="/src/assets/pic/icon product.png" alt="การขาย" />
-                        </p>
-                        การขาย
-                    </a>
-                </div> 
-                
-                
-                <div class="navbar">
-                    <div class="dropdown">
-                        <img src="src\assets\pic\playerLeft.png" alt=""><!--ใส่รูปตรงนี้ครับ-->
-                        <i class="fa fa-caret-down"></i>
-                        <div class="dropdown-content">
-                            <a href="/src/headder/profile.html">
-                                <img src="/src/assets/pic/setting.png" alt="">
-                            </a>    
-                            <a href="#">
-                                <img src="/src/assets/pic/Exit.png" alt="">
-                            </a>                                            
-                    </div>
-                </div> 
-            </div>
-
+                  </div>
+    
         </div>
-    </header>
+        </header>
     <!-- เนื้อหาหน้าแอปของคุณ -->
         <div class="table">
 
@@ -110,27 +84,32 @@
         
              
     <footer class="site-footer">
-        <h6 class="hh1">JARJOSUDLOR</h6>
-        
-        <p class="l1">Powered by Steam. Not affiliated with Valve Corp.</p>
-        <p class="l2">
+        <div class="f1">
+          <h3>JARJOSUDLOR</h3>
+          <p>Powered by Steam. Not affiliated with Valve Corp.</p>
+          <p>
             &copy; 2023 JARJOSUDLOR | 
-        <a class="footer-link white-text" href="#">นโยบายความเป็นส่วนตัว</a> | 
-        <a class="footer-link white-text" href="#">ข้อกำหนดการให้บริการ</a> | 
-        <a class="footer-link white-text" href="#">นโยบายคุกกี้</a>
-        </p>
-        
-        <h6 class="hh2">Introduction</h6>
-        <p class="l3">Privacy Statement</p>
-        <p class="l4">Terms of Service</p>
-        <p class="l5">Cookie policy</p>
-
-        <h6 class="hh3">Payment methods</h6>
-        <p class="l6">prompt pay</p>
-        <p class="l7">true money</p>
-
-
+            <a>นโยบายความเป็นส่วนตัว</a> | 
+            <a>ข้อกำหนดการให้บริการ</a> | 
+            <a>นโยบายคุกกี้</a>
+          </p>
+        </div>
+        <div class="f2">
+          <div class="f21">
+  
+            <h3>Introduction</h3>
+            <p>Privacy Statement</p>
+            <p>Terms of Service</p>
+            <p>Cookie policy</p>
+          </div>
+          <div class="f22">
+            <h3>Payment methods</h3>
+            <p>prompt pay</p>
+            <p>true money</p>
+          </div>
+        </div>
     </footer>
+  
     </div>
 </body>
 </html>

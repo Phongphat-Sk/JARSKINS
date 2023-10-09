@@ -5,7 +5,7 @@
       <!-- ส่วนเพิ่มเติมเพื่อจัดให้ช่องค้นหาแบบวงลีอยู่กึ่งกลาง -->
       <div class="header-content">
         <!-- ด้านซ้ายมีข้อความว่า JARJOSUDLOR เป็น logo -->
-        <div class="logo"><a href="">JARJOSUDLOR</a></div>  
+        <div class="logo"><a href="/">JARJOSUDLOR</a></div>  
         <div class="into">
           <div class="wallet">
             <div class="input-container">
@@ -22,8 +22,6 @@
                     <a href="">เข้าสู่ระบบ</a>
                 </div> 
           </div>
-                
-
       </div>
     </header>
 
@@ -193,9 +191,10 @@
           <p>true money</p>
         </div>
       </div>
+  </footer>
 
 
-    </footer>
+
   </div>
 </template>
 

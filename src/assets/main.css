@@ -5,17 +5,6 @@
   padding: 0;
   font-family: 'IBM Plex Sans Thai', sans-serif;
 }
-p,h2{
-  color: white;
-}
-body{
-  background-color: #1D2126;
-}
-
-button:hover{
-  cursor: pointer;
-}
-
 /* nav */
 .nav{
   background-color: lightgray;
@@ -35,6 +24,22 @@ button:hover{
 .nav img:hover{
   cursor: pointer;
 }
+
+button:hover{
+  cursor: pointer;
+}
+
+
+
+/* theme */
+p,h2{
+  color: white;
+}
+body{
+  background-color: #1D2126;
+}
+
+
 /* สไตล์สำหรับเฮดเดอร์ที่กำหนดเอง */
 .custom-header {
   width: 100%;
@@ -109,6 +114,44 @@ a {
 }
 
 
+
+
+
+
+footer{
+  padding: 0 40px;
+}
+.site-footer {
+  height: 200px;
+  background-color: #333; /* สีพื้นหลังของ footer */
+  color: #fff; /* สีข้อความใน footer */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+}
+
+.f2{
+  display: flex;
+  justify-content: space-between;
+  width: 20rem;
+}
+.f1 p{
+  color: white;
+}
+.f2 p{
+  color: white;
+}
+
+
+
+
+
+
+
+
+
+
 /* สไตล์สำหรับโลโก้ */
 .logo {
   font-size: 20px;
@@ -160,6 +203,9 @@ a {
   background-color: rgb(179, 5, 5);
   color: #fff;
 }
+
+
+
 .contai1 p{
   color: white;
 }
@@ -222,6 +268,10 @@ a {
   border-radius: 10px;
 }
 
+
+
+
+
 .contai3{
   margin-top: 90px;
   height: 400px;
@@ -256,6 +306,10 @@ a {
 .ball:hover{
   cursor: pointer;
 }
+
+
+
+
 
 .contai4{
   height: 400px;
@@ -311,37 +365,11 @@ a {
   width: 150px;
   height: 120px;
 }
-
-
-
 .carousel-img {
   display: block;
   transform: translateY(60px); /* ปรับตามความต้องการ */
 }
 
-/* รูปแบบสำหรับ icon2 และ icon3 */
 
-footer{
-  padding: 0 40px;
-}
-.site-footer {
-  height: 200px;
-  background-color: #333; /* สีพื้นหลังของ footer */
-  color: #fff; /* สีข้อความใน footer */
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  
-}
 
-.f2{
-  display: flex;
-  justify-content: space-between;
-  width: 20rem;
-}
-.f1 p{
-  color: white;
-}
-.f2 p{
-  color: white;
-}
+
