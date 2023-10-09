@@ -74,7 +74,7 @@ a {
   align-items: center;
 }
 .wallet{
-  background-color: #fff;
+  background-color: #0e0e0e;
   width: 20%;
   
 }
@@ -391,3 +391,24 @@ a {
   cursor: pointer;
 }
 
+.table{
+  width: 999px;
+height: 1000px;
+flex-shrink: 0;
+border-radius: 20px;
+background: #272C33;
+margin-top: -165px;
+margin-left: 450px;
+}
+
+.custom-svg {
+  width: 209px; /* ปรับความกว้างตามที่คุณต้องการ */
+  height: 191px; /* ปรับความสูงตามที่คุณต้องการ */
+  transform: translate(50px, 30px); /* ปรับตำแหน่งตามที่คุณต้องการ */
+  margin-left: 80px;
+
+}
+
+.name{
+  margin-top: 1000px;
+}
