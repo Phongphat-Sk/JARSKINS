@@ -388,9 +388,9 @@ a {
 /* ข้อมูลโปรไฟล์ */
 .proinfo{
   width: 55rem;
-  height: 45rem;
+  height: 50rem;
   border-radius: 20px;
-  background: #D9D9D9;
+  background: #272C33;
   cursor: context-menu;
 }
 /* ข้อความด้านบน */
@@ -419,12 +419,22 @@ a {
 }
 /* เติมเงิน */
 .addmoney{
-  background-color: #B1ADAD;
+  background-color: #1D2126;
   padding: 8px;
   margin: 0 auto;
-  margin-top: 20px;
-  width: 44.3rem;
-  height: 25.5rem;
+  margin-top: 30px;
+  width: 800px;
+  height: 430px;
+  border-radius: 20px;
+}
+
+.addmoney2{
+  background-color: #1D2126;
+  padding: 8px;
+  margin: 0 auto;
+  margin-top: 30px;
+  width: 800px;
+  height: 150px;
   border-radius: 20px;
 }
 /* ช้อความด้านบนหน้าเติมเงิน */
@@ -473,4 +483,40 @@ a{
   width: 150px;
   height: 90px;
   cursor: pointer;
+}
+
+.name{
+  margin-left: 20px;
+  font-size: 24px;
+
+}
+
+.name2{
+  margin-left: 20px;
+  margin-top: 15px;
+
+}
+
+.name3{
+  margin-left: 20px;
+  margin-top: 25px;
+}
+
+.name4{
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+.name5{
+  margin-left: 20px;
+  margin-top: 50px;
+  font-size: 24px;
+
+}
+
+.name6{
+  margin-left: 20px;
+  margin-top: 10px;
+  font-size: 24px;
+
 }
