@@ -251,8 +251,8 @@ a {
 /* สไตล์สำหรับเส้นคั่น */
 .separator {
   width: 1px;
-  height: 55px;
-  background: #000000;
+  height: 50px;
+  background: gray;
   margin: 0 10px; /* ขยับเส้นคั่นไปทางขวาและซ้าย 10px (หรือค่าที่คุณต้องการ) */
 }
 
@@ -307,9 +307,13 @@ a {
   font-size: 14px;
 }
 .line {
-    width: 100%;
-    height: 1px;
-    background-color: #000; /* สีของเส้น */
+  width: 95%;
+  margin: 0 auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+  height: 1px;
+  background-color: gray; /* สีของเส้น */
 }
 .text{
   display: flex;
@@ -335,42 +339,8 @@ a {
 .red{
   color: red;
 }
-
-
-.itembox{
-  width: 100%;
-  padding: 3rem 7rem;
-  display: flex;
-  flex-wrap: wrap
-}
-.item{
-  margin: .7rem;
-  width: 250px;
-  height: 330px;
-  background-color: silver;
-  justify-content: center;
-  padding: 20px;
-}
-.item .line{
-  box-shadow: 0 3px 5px 2px gray ;
-}
-.itemimg{
-  text-align: center;
-}
-.item img{
-  width: 90px;
-  height: 120px;
-}
-.item h1{
-  margin-top: 13px;
-  font-weight: bold;
-  font-size: 30px;
-}
-.item h1,h3{
-  color: #ffffff;
-}
-.item p{
-  font-size: 14px;
+.blue{
+  color: blue;
 }
 .linee{
   margin-top: 5px;
@@ -382,33 +352,125 @@ a {
 }
 
 
+/* กรอปรูปโปรไฟล์ */
+.profile {
+  width: 200px; /* ปรับความกว้างตามที่คุณต้องการ */
+  height: 180px; /* ปรับความสูงตามที่คุณต้องการ */
+  /*stransform: translate(50px, 30px); ปรับตำแหน่งตามที่คุณต้องการ */
+  display: flex;
+  border-radius: 100%;
+  background-color: white;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden; /*ซ่อนภาพที่ใหญ่เกินกรอบรูป*/
+  margin-right: 50px;
+}
+/* รูปโปรไฟล์ */
+.profile img{
+  text-align: center;
+  width: 90%;
+  height: 90%;
+}
+/* ข้อความล่างรูป */
+.protex{
+  margin-top: 20px;
+  
+}
 
 
-
-.item:hover{
-  background-color: #D9D9D9;
-  border: white 1px solid;
+/* กล่องใหญ่ครอบรูปโปรไฟล์กับข้อมูลโปรไฟล์ */
+.table{
+  margin-top: 90px;
+  display: flex;
+  padding-left: 10px;
+  justify-content: center;
+}
+/* ข้อมูลโปรไฟล์ */
+.proinfo{
+  width: 55rem;
+  height: 45rem;
+  border-radius: 20px;
+  background: #D9D9D9;
+  cursor: context-menu;
+}
+/* ข้อความด้านบน */
+.upper{
+  color: #333;
+  margin-top: 20px;
+  margin-left: 40px;
+  display: flex;
+  align-items: center;
+}
+/* กล่องรวมระบุยอดเงิน */
+.mo3ney{
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* กล่องย่อยระบุยอดเงิน */
+.money{
+  padding: 18px;
+  margin: 0 10px;
+  width: 14rem;
+  height: 7.5rem;
+  background-color: #B1ADAD;
+  border-radius: 20px;
+}
+/* เติมเงิน */
+.addmoney{
+  background-color: #B1ADAD;
+  padding: 8px;
+  margin: 0 auto;
+  margin-top: 20px;
+  width: 44.3rem;
+  height: 25.5rem;
+  border-radius: 20px;
+}
+/* ช้อความด้านบนหน้าเติมเงิน */
+.upperm{
+  color: #333;
+  margin-top: 10px;
+  margin-left: 20px;
+  display: flex;
+  align-items: center;
+}
+.upperm h3{
+  margin-right: 30px;
   cursor: pointer;
 }
-
-.table{
-  width: 999px;
-height: 1000px;
-flex-shrink: 0;
-border-radius: 20px;
-background: #272C33;
-margin-top: -165px;
-margin-left: 450px;
+a{
+  color: #000;
 }
+/* เติมเงินย่อย */
+.add{
+  margin-left: 20px;
+  display: flex;
 
-.custom-svg {
-  width: 209px; /* ปรับความกว้างตามที่คุณต้องการ */
-  height: 191px; /* ปรับความสูงตามที่คุณต้องการ */
-  transform: translate(50px, 30px); /* ปรับตำแหน่งตามที่คุณต้องการ */
-  margin-left: 80px;
-
+  margin-bottom: 50px;
 }
-
-.name{
-  margin-top: 1000px;
+.add h3{
+  margin-top: 10px;
+}
+.add button{
+  width: 100px;
+  height: 30px;
+  margin-right: 10px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 5px;
+}
+.add button:hover{
+  background-color: lightblue;
+}
+/* ปุ่ม */
+.but{
+  display: flex;
+  flex-wrap: wrap;
+}
+.but img{
+  margin-left: -50px;
+  width: 150px;
+  height: 90px;
+  cursor: pointer;
 }

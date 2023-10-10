@@ -259,7 +259,7 @@ footer{
 .separator {
     width: 1px;
     height: 55px;
-    background: #000;
+    background: #333;
     margin-left: 20px; /* ขยับเส้นคั่นไปทางขวาและซ้าย 10px (หรือค่าที่คุณต้องการ) */
 }
 .item button{
