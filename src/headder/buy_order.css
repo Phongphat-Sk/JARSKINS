@@ -295,13 +295,18 @@ a {
   border-radius: 10px;
   background: #272C33;
   margin-top: 10px; /* ขยับลงมาด้านล่างอีก 10px */
-  display: flex;
-  flex-direction: row; /* จัดเรียงแนวนอน */
-  justify-content: space-between; /* ให้แต่ละรายการกระจายอย่างเท่าๆ กัน */
-  align-items: center;
 }
 .custom-div p{
   font-size: 18px;
+}
+.column{
+  margin: 0 auto;
+  width: 92%;
+  flex-direction: row; /* จัดเรียงแนวนอน */
+  justify-content: space-between; /* ให้แต่ละรายการกระจายอย่างเท่าๆ กัน */
+  align-items: center;
+  display: flex;
+
 }
 .info-container {
   display: flex;
@@ -333,4 +338,36 @@ a {
 
 .info-label {
   color: rgb(253, 253, 253); /* เปลี่ยนสีข้อความเป็นสีดำ */
+}
+
+.row{
+  margin: 0 auto;
+  margin-top: 30px;
+  background-color: #B4B3B3;
+  width: 97%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 0 -20px;
+}
+.row img{
+  width: 150px;
+  height: 70px;
+  border: #1D2126 1px solid;
+}
+.row button{
+  width: 160px;
+  height: 70px;
+  font-size: 16px;
+  background-color: #C93131;
+  border: none;
+  color: white;
+  border-radius: 3px;
+}
+.row button:hover{
+  background-color: darkred;
+}
+.red{
+  color: red;
 }

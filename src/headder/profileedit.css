@@ -138,6 +138,9 @@ footer{
   color: white;
 }
 
+.white{
+  color: white;
+}
 
 /* profile */
 .navbar{
@@ -252,7 +255,7 @@ a {
 .separator {
   width: 1px;
   height: 50px;
-  background: gray;
+  background: #fff;
   margin: 0 10px; /* ขยับเส้นคั่นไปทางขวาและซ้าย 10px (หรือค่าที่คุณต้องการ) */
 }
 

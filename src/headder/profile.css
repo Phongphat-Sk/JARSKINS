@@ -252,7 +252,7 @@ a {
 .separator {
   width: 1px;
   height: 50px;
-  background: #272C33;
+  background: #d9d9d9;
   margin: 0 10px; /* ขยับเส้นคั่นไปทางขวาและซ้าย 10px (หรือค่าที่คุณต้องการ) */
 }
 
