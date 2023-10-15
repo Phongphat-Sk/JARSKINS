@@ -213,7 +213,7 @@ footer{
 .custom-div {
   padding: 20px;
   width: 98%;
-  height: 1000px;
+  height: 100%;
   border-radius: 10px;
   background: #272C33;
   margin-top: 10px; /* ขยับลงมาด้านล่างอีก 10px */
@@ -240,7 +240,7 @@ footer{
   padding: 5px 19px;
   border: none;
   border-radius: 50px;
-  width: 490px;
+  width: 20rem;
   box-sizing: border-box;
   border: #333 2px solid;
 }

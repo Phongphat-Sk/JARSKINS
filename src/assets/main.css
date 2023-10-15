@@ -308,6 +308,11 @@ footer{
 }
 
 
+@media screen and (max-width:480px) {
+  .header-content{
+    grid-template-columns: repeat(2,1fr);
+  }
+}
 
 
 

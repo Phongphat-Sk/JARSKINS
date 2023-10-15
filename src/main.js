@@ -12,3 +12,16 @@ app.use(createPinia())
 app.use(router)
 
 app.mount('#app')
+
+export default {
+    // ...
+    build: {
+      rollupOptions: {
+        output: {
+          // ...
+          assetFileNames: 'src/assets/pic/chevron-arrow-up.png',
+        },
+      },
+    },
+  };
+  
