@@ -41,7 +41,7 @@
   <div class="nav">
     <figure> 
       <a href="">
-        <img src="src\assets\pic\chevron-arrow-up.png" alt="" width="25px" height="25px">
+        <img src="src\assets\pic\arrowup.png" alt="" width="25px" height="25px">
       </a>
       <img src="src\assets\pic\clipart1589423.png" alt="" width="25px" height="25px">
     </figure>
@@ -70,30 +70,30 @@
   <div class="contai2">
     <figure>
       <a href="#">
-         <img src="/src/assets/pic/Rectangle 11.png" alt="">
+         <img src="/src/assets/pic/Rectangle11.png" alt="">
       </a>
       <a href="#">
-        <img src="/src/assets/pic/Rectangle 12.png" alt="">
+        <img src="/src/assets/pic/Rectangle12.png" alt="">
       </a>
       <a href="#">
-        <img src="/src/assets/pic/Rectangle 13.png" alt="">
+        <img src="/src/assets/pic/Rectangle13.png" alt="">
       </a>
       <a href="#">
-        <img src="/src/assets/pic/Rectangle 14.png" alt="">
+        <img src="/src/assets/pic/Rectangle14.png" alt="">
       </a>
     </figure>
     <figure>
       <a href="#">
-        <img src="/src/assets/pic/Rectangle 15.png" alt="">
+        <img src="/src/assets/pic/Rectangle15.png" alt="">
       </a>
       <a href="#">
-        <img src="/src/assets/pic/Rectangle 16.png" alt="">
+        <img src="/src/assets/pic/Rectangle16.png" alt="">
       </a>
       <a href="#">
-        <img src="/src/assets/pic/Rectangle 17.png" alt="">
+        <img src="/src/assets/pic/Rectangle17.png" alt="">
       </a>
       <a href="#">
-        <img src="/src/assets/pic/Rectangle 18.png" alt="">
+        <img src="/src/assets/pic/Rectangle18.png" alt="">
       </a>
     </figure>
   </div>
@@ -104,27 +104,27 @@
       <figure>
         <div class="ball">
           <a href="/src/item/item_knife.html">
-            <img src="/src/assets/pic/Rectangle 19.png">
+            <img src="/src/assets/pic/Rectangle19.png">
           </a>
         </div>
         <div class="ball">
           <a href="/src/item/item_pistol.html">
-            <img src="/src/assets/pic/Rectangle 20.png">
+            <img src="/src/assets/pic/Rectangle20.png">
           </a>
         </div>
         <div class="ball">
           <a href="/src/item/item_submach.html">
-            <img src="/src/assets/pic/Rectangle 21.png">
+            <img src="/src/assets/pic/Rectangle21.png">
           </a> 
         </div>
         <div class="ball">
           <a href="/src/item/item_rifle.html">
-            <img src="/src/assets/pic/Rectangle 22.png">
+            <img src="/src/assets/pic/Rectangle22.png">
           </a> 
         </div>
         <div class="ball">
           <a href="/src/item/item_heavymach.html">
-            <img src="/src/assets/pic/Rectangle 23.png">
+            <img src="/src/assets/pic/Rectangle23.png">
           </a> 
         </div>
       
